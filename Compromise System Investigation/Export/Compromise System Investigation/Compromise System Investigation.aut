@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AutopsyCase>
+  <SchemaVersion>6.0</SchemaVersion>
+  <CreatedDate>2025/12/02 21:47:34 (IST)</CreatedDate>
+  <ModifiedDate>2025/12/02 21:47:36 (IST)</ModifiedDate>
+  <CreatedByAutopsyVersion>4.22.1</CreatedByAutopsyVersion>
+  <SavedByAutopsyVersion>4.22.1</SavedByAutopsyVersion>
+  <Case>
+    <Name>compromise_system_investigation_20251202_214734</Name>
+    <DisplayName>Compromise System Investigation</DisplayName>
+    <Number>900</Number>
+    <Examiner>keerthi</Examiner>
+    <ExaminerPhone>6321456780</ExaminerPhone>
+    <ExaminerEmail>alice300@gmail.com</ExaminerEmail>
+    <CaseNotes/>
+    <CaseType>Single-user case</CaseType>
+    <Database/>
+    <CaseDatabase>autopsy.db</CaseDatabase>
+    <TextIndex/>
+  </Case>
+  <ContentProvider>
+    <Name/>
+  </ContentProvider>
+  <OriginalCase/>
+</AutopsyCase>

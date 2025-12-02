@@ -1,0 +1,44 @@
+﻿Created By AccessData® FTK® Imager 3.1.2.0 
+
+Case Information: 
+Acquired using: ADI3.1.2.0
+Case Number: 900
+Evidence Number:  
+Unique Description: 
+Examiner:  
+Notes:  
+
+--------------------------------------------------------------
+
+Information for C:\Users\RAKESH S\Downloads\project vac\Compromise System Investigation:
+
+Physical Evidentiary Item (Source) Information:
+[Device Info]
+ Source Type: Physical
+[Drive Geometry]
+ Cylinders: 12
+ Tracks per Cylinder: 255
+ Sectors per Track: 63
+ Bytes per Sector: 512
+ Sector Count: 204,800
+[Physical Drive Information]
+ Drive Model: Microsoft Virtual Disk
+ Drive Interface Type: SCSI
+ Removable drive: False
+ Source data size: 100 MB
+ Sector count:    204800
+[Computed Hashes]
+ MD5 checksum:    4169d57b68ea6a452456164b4f56a3b9
+ SHA1 checksum:   83674e8980519d0e1af1388b59870ffd283c087e
+
+Image Information:
+ Acquisition started:   Tue Dec 02 21:02:20 2025
+ Acquisition finished:  Tue Dec 02 21:02:20 2025
+ Segment list:
+  C:\Users\RAKESH S\Downloads\project vac\Compromise System Investigation.E01
+
+Image Verification Results:
+ Verification started:  Tue Dec 02 21:02:20 2025
+ Verification finished: Tue Dec 02 21:02:21 2025
+ MD5 checksum:    4169d57b68ea6a452456164b4f56a3b9 : verified
+ SHA1 checksum:   83674e8980519d0e1af1388b59870ffd283c087e : verified

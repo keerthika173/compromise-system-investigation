@@ -1,0 +1,347 @@
+2025-12-02 22:24:49.267 org.sleuthkit.autopsy.centralrepository.datamodel.RdbmsCentralRepo upgradeSchema
+INFO: Central Repository is up to date
+2025-12-02 22:24:49.316 org.sleuthkit.autopsy.keywordsearch.Server startLocalSolr
+INFO: Starting local Solr SOLR8 server
+2025-12-02 22:24:49.325 org.sleuthkit.autopsy.keywordsearch.Server isLocalSolrRunning
+INFO: Solr server is running
+2025-12-02 22:24:49.326 org.sleuthkit.autopsy.keywordsearch.Server startLocalSolr
+INFO: Local Solr SOLR8 server is already running
+2025-12-02 22:24:49.332 org.sleuthkit.autopsy.keywordsearch.Server isLocalSolrRunning
+INFO: Solr server is running
+2025-12-02 22:24:55.261 org.sleuthkit.autopsy.keywordsearch.Server$Collection <init>
+INFO: Using Solr document queue size = 30
+2025-12-02 22:24:55.58 org.sleuthkit.autopsy.imagegallery.PerCaseProperties getConfigSetting
+INFO: File did not exist. Created file [Image Gallery.properties]
+2025-12-02 22:24:55.811 org.sleuthkit.autopsy.imagegallery.datamodel.DrawableDB setPragmas
+INFO: sqlite-jdbc version 3.49.1.0 loaded in native mode
+2025-12-02 22:24:55.961 org.sleuthkit.autopsy.casemodule.Case openAsCurrentCase
+INFO: Opened Compromise system investigation (compromise_system_investigation_20251202_222447) in C:\Users\RAKESH S\Downloads\project vac\Compromise System Investigation\Export\Compromise System Investigation\Compromise System Investigation\Compromise system investigation as the current case
+2025-12-02 22:24:56.857 org.sleuthkit.autopsy.corecomponents.DataContentViewerHex <init>
+INFO: Created HexView instance: org.sleuthkit.autopsy.corecomponents.DataContentViewerHex[,0,0,0x0,invalid,layout=javax.swing.GroupLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=java.awt.Dimension[width=100,height=58]]
+2025-12-02 22:24:57.513 org.sleuthkit.autopsy.contentviewers.MediaFileViewer <init>
+INFO: Created MediaView instance: org.sleuthkit.autopsy.contentviewers.MediaFileViewer[,0,0,0x0,invalid,layout=java.awt.CardLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-12-02 22:24:59.518 org.sleuthkit.autopsy.contentviewers.FileViewer <init>
+INFO: Created ApplicationContentViewer instance: org.sleuthkit.autopsy.contentviewers.FileViewer[,0,0,0x0,invalid,layout=javax.swing.OverlayLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-12-02 22:24:59.905 org.sleuthkit.autopsy.corecomponents.DataContentTopComponent <init>
+INFO: Created DataContentTopComponent instance: org.sleuthkit.autopsy.corecomponents.DataContentTopComponent[Data Content,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=256,maximumSize=,minimumSize=,preferredSize=]
+2025-12-02 22:25:00.087 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Cyber Triage Malware Scanner, version = 1.0.0
+2025-12-02 22:25:00.135 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Central Repository, version = 4.22.1
+2025-12-02 22:25:00.179 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Data Source Integrity, version = 4.22.1
+2025-12-02 22:25:00.224 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = DJI Drone Analyzer, version = 4.22.1
+2025-12-02 22:25:00.266 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Embedded File Extractor, version = 4.22.1
+2025-12-02 22:25:00.267 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Encryption Detection, version = 4.22.1
+2025-12-02 22:25:00.31 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Extension Mismatch Detector, version = 4.22.1
+2025-12-02 22:25:00.349 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = File Type Identification, version = 4.22.1
+2025-12-02 22:25:00.388 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Hash Lookup, version = 4.22.1
+2025-12-02 22:25:00.388 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Interesting Files Identifier, version = 4.22.1
+2025-12-02 22:25:00.434 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Android Analyzer (aLEAPP), version = 4.22.1
+2025-12-02 22:25:00.435 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = iOS Analyzer (iLEAPP), version = 4.22.1
+2025-12-02 22:25:00.478 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = PhotoRec Carver, version = 7.0
+2025-12-02 22:25:00.517 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Picture Analyzer, version = 4.22.1
+2025-12-02 22:25:00.554 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Plaso, version = 4.22.1
+2025-12-02 22:25:00.594 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Virtual Machine Extractor, version = 4.22.1
+2025-12-02 22:25:00.63 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = YARA Analyzer, version = 4.22.1
+2025-12-02 22:25:00.632 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Keyword Search, version = 4.22.1
+2025-12-02 22:25:00.637 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Email Parser, version = 4.22.1
+2025-12-02 22:25:00.638 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader addFactory
+INFO: Found ingest module factory: name = Recent Activity, version = 4.22.1
+2025-12-02 22:25:00.675 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = GPX Parser, version = 1.2
+2025-12-02 22:25:00.676 org.sleuthkit.autopsy.ingest.IngestModuleFactoryLoader getIngestModuleFactories
+INFO: Found ingest module factory: name = Android Analyzer, version = 4.22.1
+2025-12-02 22:25:34.638 com.basistech.df.cybertriage.autopsy.ctapi.CTCloudHttpClient createSSLContext
+INFO: Creating custom SSL context
+2025-12-02 22:25:34.638 com.basistech.df.cybertriage.autopsy.ctapi.CTCloudHttpClient getKeyManagers
+INFO: Using default algorithm to create trust store: SunX509
+2025-12-02 22:25:34.639 com.basistech.df.cybertriage.autopsy.ctapi.CTCloudHttpClient getTrustManagers
+INFO: Using default algorithm to create trust store: PKIX
+2025-12-02 22:25:34.733 com.basistech.df.cybertriage.autopsy.incidentoptions.CTSettings getAppDataLocalDirectory
+INFO: Application Data Path: C:\Users\RAKESH S\AppData\Local\cybertriage
+2025-12-02 22:26:52.61 org.sleuthkit.autopsy.ingest.IngestMonitor$MonitorTimerAction logMonitoredRootDirectory
+INFO: Monitoring disk space of C:\
+2025-12-02 22:26:52.611 org.sleuthkit.autopsy.ingest.IngestManager startIngestJob
+INFO: Starting ingest job 0 at 1764694612611
+2025-12-02 22:26:52.615 org.sleuthkit.autopsy.ingest.IngestPipelinesConfiguration getInstance
+INFO: Creating ingest module loader instance
+2025-12-02 22:26:52.824 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer loadConfigFile
+INFO: Load successful
+2025-12-02 22:26:54.363 org.sleuthkit.autopsy.keywordsearch.Server isLocalSolrRunning
+INFO: Solr server is running
+2025-12-02 22:26:54.448 org.sleuthkit.autopsy.modules.yara.YaraIngestModule startUp
+INFO: YARA ingest module: No rule set was selected for this ingest job.
+2025-12-02 22:26:54.687 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Starting ingest job in file streaming mode (data source = ptojectvac.E01, data source object ID = 1, job ID = 0)
+2025-12-02 22:26:55.047 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Data source received in streaming mode ingest job (data source = ptojectvac.E01, data source object ID = 1, job ID = 0)
+2025-12-02 22:26:55.05 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Recent Activity analysis of ptojectvac.E01 starting
+2025-12-02 22:26:55.06 org.sleuthkit.autopsy.recentactivity.RecentDocumentsByLnk getRecentDocuments
+INFO: Didn't find any recent files.
+2025-12-02 22:26:55.1 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2025-12-02 22:26:55.1 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2025-12-02 22:26:55.101 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2025-12-02 22:26:55.101 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2025-12-02 22:26:55.101 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2025-12-02 22:26:55.101 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2025-12-02 22:26:55.101 org.sleuthkit.autopsy.recentactivity.Chromium getProfiles
+INFO: Could not find any allocated Chrome Local State files.
+2025-12-02 22:26:55.11 org.sleuthkit.autopsy.recentactivity.Firefox getHistory
+INFO: No FireFox history files found.
+2025-12-02 22:26:55.11 org.sleuthkit.autopsy.recentactivity.Firefox getBookmark
+INFO: Didn't find any firefox bookmark files.
+2025-12-02 22:26:55.11 org.sleuthkit.autopsy.recentactivity.Firefox getDownloadPreVersion24
+INFO: Didn't find any pre-version-24.0 Firefox download files.
+2025-12-02 22:26:55.11 org.sleuthkit.autopsy.recentactivity.Firefox getDownloadVersion24
+INFO: Didn't find any version-24.0 Firefox download files.
+2025-12-02 22:26:55.111 org.sleuthkit.autopsy.recentactivity.Firefox getCookie
+INFO: Didn't find any Firefox cookie files.
+2025-12-02 22:26:55.111 org.sleuthkit.autopsy.recentactivity.Firefox getFormsHistory
+INFO: No FireFox form history files found.
+2025-12-02 22:26:55.111 org.sleuthkit.autopsy.recentactivity.Firefox getAutofillProfiles
+INFO: Didn't find any Firefox Autofill Profiles files.
+2025-12-02 22:26:55.112 org.sleuthkit.autopsy.recentactivity.ExtractIE getBookmark
+INFO: Didn't find any IE bookmark files.
+2025-12-02 22:26:55.112 org.sleuthkit.autopsy.recentactivity.ExtractIE getCookie
+INFO: Didn't find any IE cookies files.
+2025-12-02 22:26:55.112 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+INFO: Pasco results path: C:\Users\RAKESH~1\AppData\Local\Temp\Autopsy\compromise_system_investigation_20251202_222447\Temp\RecentActivity\IE_0\results
+2025-12-02 22:26:55.113 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+INFO: Pasco2 home: C:\Program Files\Autopsy-4.22.1\autopsy\pasco2
+2025-12-02 22:26:55.115 org.sleuthkit.autopsy.recentactivity.ExtractIE getHistory
+INFO: No InternetExplorer history files found.
+2025-12-02 22:26:55.117 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer findSearchQueries
+INFO: Processing 0 blackboard artifacts.
+2025-12-02 22:26:55.117 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer findSearchQueries
+INFO: Extracted 0 queries from the blackboard
+2025-12-02 22:26:55.117 org.sleuthkit.autopsy.recentactivity.SearchEngineURLQueryAnalyzer process
+INFO: Search Engine stats: 
+Google : 0
+Yahoo : 0
+Twitter : 0
+LinkedIn : 0
+Facebook : 0
+Bing : 0
+Baidu : 0
+Sogou : 0
+Soso : 0
+Youdao : 0
+Yandex : 0
+Biglobe : 0
+Linkestan : 0
+Parseek : 0
+Parset : 0
+Amazon : 0
+DuckDuckGo : 0
+Youtube : 0
+Reddit : 0
+CCSearch : 0
+Swisscows : 0
+GIbiru : 0
+Wiki : 0
+Cutestat : 0
+Givewater : 0
+Ekoru : 0
+Ecosia : 0
+Slideshare : 0
+Wikipedia : 0
+Wiki : 0
+
+2025-12-02 22:26:55.118 org.sleuthkit.autopsy.recentactivity.ExtractWebAccountType extractDomainRoles
+INFO: Processing 0 blackboard artifacts.
+2025-12-02 22:26:55.119 org.sleuthkit.autopsy.recentactivity.ExtractWebAccountType$RoleProcessor createArtifacts
+INFO: Didn't find any web accounts.
+2025-12-02 22:26:55.724 org.sleuthkit.autopsy.recentactivity.DomainCategoryRunner findDomainTypes
+INFO: Processing 1 blackboard artifacts.
+2025-12-02 22:26:55.733 org.sleuthkit.autopsy.recentactivity.DomainCategoryRunner findDomainTypes
+INFO: Extracted 0 distinct messaging domain(s) from the blackboard.  Of the 1 artifact(s) with valid hosts, 0 url(s) contained messaging domain suffix.
+2025-12-02 22:26:55.735 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Recent Activity analysis of ptojectvac.E01 finished
+2025-12-02 22:26:55.787 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Android Analyzer analysis of ptojectvac.E01 starting
+2025-12-02 22:26:58.378 AndroidIngestModule process
+INFO: running 22 analyzers
+2025-12-02 22:26:58.446 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Android Analyzer analysis of ptojectvac.E01 finished
+2025-12-02 22:26:58.446 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Encryption Detection analysis of ptojectvac.E01 starting
+2025-12-02 22:26:58.502 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Encryption Detection analysis of ptojectvac.E01 finished
+2025-12-02 22:26:58.502 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Virtual Machine Extractor analysis of ptojectvac.E01 starting
+2025-12-02 22:26:58.502 org.sleuthkit.autopsy.modules.vmextractor.VMExtractorIngestModule process
+INFO: Looking for virtual machine files in data source ptojectvac.E01
+2025-12-02 22:26:58.505 org.sleuthkit.autopsy.modules.vmextractor.VMExtractorIngestModule process
+INFO: No virtual machine files found in data source ptojectvac.E01
+2025-12-02 22:26:58.505 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Virtual Machine Extractor analysis of ptojectvac.E01 finished
+2025-12-02 22:26:58.505 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Android Analyzer (aLEAPP) analysis of ptojectvac.E01 starting
+2025-12-02 22:27:02.422 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Android Analyzer (aLEAPP) analysis of ptojectvac.E01 finished
+2025-12-02 22:27:02.423 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: DJI Drone Analyzer analysis of ptojectvac.E01 starting
+2025-12-02 22:27:02.431 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: DJI Drone Analyzer analysis of ptojectvac.E01 finished
+2025-12-02 22:27:02.432 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: iOS Analyzer (iLEAPP) analysis of ptojectvac.E01 starting
+2025-12-02 22:27:10.128 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: iOS Analyzer (iLEAPP) analysis of ptojectvac.E01 finished
+2025-12-02 22:27:10.128 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Finished all ingest tasks for tier 0 of ingest job (data source = ptojectvac.E01, data source object ID = 1, job ID = 0)
+2025-12-02 22:27:10.139 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+INFO: Keyword search ingest module instance 0 shutting down
+2025-12-02 22:27:10.144 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+INFO: Keyword search ingest module instance 1 shutting down
+2025-12-02 22:27:10.597 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+INFO: Indexed files count: 44
+2025-12-02 22:27:10.601 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule shutDown
+INFO: Indexed file chunks count: 37
+2025-12-02 22:27:10.601 org.sleuthkit.autopsy.keywordsearch.KeywordSearchIngestModule postIndexSummary
+INFO: Keyword Indexing Completed: <table border=0><tr><td>Files with known types</td><td>4</td></tr><tr><td>Files with general strings extracted</td><td>24</td></tr><tr><td>Metadata only was indexed</td><td>15</td></tr><tr><td>Error (indexer)</td><td>0</td></tr><tr><td>Error (text extraction)</td><td>0</td></tr><tr><td>Error (I/O)</td><td>0</td></tr></table>
+2025-12-02 22:27:10.703 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Scheduling ingest tasks for tier 1 of ingest job (data source = ptojectvac.E01, data source object ID = 1, job ID = 0)
+2025-12-02 22:27:10.703 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Data Source Integrity analysis of ptojectvac.E01 starting
+2025-12-02 22:27:10.705 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Total chunks = 3,200
+2025-12-02 22:27:10.705 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Starting hash verification of ptojectvac.E01
+2025-12-02 22:27:11.225 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Hash calculated from ptojectvac.E01: a1024e286932d13a18a17fad29885809
+2025-12-02 22:27:11.225 org.sleuthkit.autopsy.modules.dataSourceIntegrity.DataSourceIntegrityIngestModule process
+INFO: Hash calculated from ptojectvac.E01: b90fd495dddfe7169fefba1c20d12c207508c2f1
+2025-12-02 22:27:11.226 org.sleuthkit.autopsy.ingest.DataSourceIngestPipeline$DataSourcePipelineModule process
+INFO: Data Source Integrity analysis of ptojectvac.E01 finished
+2025-12-02 22:27:11.226 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Finished all ingest tasks for tier 1 of ingest job (data source = ptojectvac.E01, data source object ID = 1, job ID = 0)
+2025-12-02 22:27:11.227 org.sleuthkit.autopsy.ingest.IngestJobExecutor logInfoMessage
+INFO: Finished all ingest tasks for ingest job (data source = ptojectvac.E01, data source object ID = 1, job ID = 0)
+2025-12-02 22:27:11.232 org.sleuthkit.autopsy.ingest.IngestManager finishIngestJob
+INFO: Ingest job 0 completed at 1764694631232
+2025-12-02 22:28:10.46 org.sleuthkit.autopsy.report.ReportProgressPanel$1 mouseReleased
+SEVERE: Error opening report file
+java.lang.IllegalArgumentException: The file: C:\Users\RAKESH S\Downloads\project vac\Compromise System Investigation\Export\Compromise System Investigation\Compromise System Investigation\Compromise system investigation\Reports\Compromise system investigation Excel Report 12-02-2025-22-28-07\Excel.xlsx doesn't exist.
+	java.desktop/java.awt.Desktop.checkFileValidation(Desktop.java:368)
+	java.desktop/java.awt.Desktop.open(Desktop.java:429)
+	org.sleuthkit.autopsy.coreutils.Desktop.open(Desktop.java:129)
+	org.sleuthkit.autopsy.report.ReportProgressPanel$1.mouseReleased(ReportProgressPanel.java:135)
+	java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:298)
+	java.desktop/java.awt.Component.processMouseEvent(Component.java:6626)
+	java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+	java.desktop/java.awt.Component.processEvent(Component.java:6391)
+	java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+	java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+	java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
+	java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
+	java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+	org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:136)
+	java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:117)
+	java.desktop/java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:191)
+	java.desktop/java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:236)
+	java.desktop/java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:234)
+	java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
+	java.desktop/java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:234)
+	java.desktop/java.awt.Dialog.show(Dialog.java:1080)
+	java.desktop/java.awt.Component.show(Component.java:1728)
+	java.desktop/java.awt.Component.setVisible(Component.java:1675)
+	java.desktop/java.awt.Window.setVisible(Window.java:1036)
+	java.desktop/java.awt.Dialog.setVisible(Dialog.java:1016)
+	org.sleuthkit.autopsy.report.infrastructure.ReportGenerator.displayProgressPanel(ReportGenerator.java:311)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction.doReportWizard(ReportWizardAction.java:119)
+	org.sleuthkit.autopsy.report.infrastructure.ReportWizardAction.actionPerformed(ReportWizardAction.java:182)
+	java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297)
+	java.desktop/java.awt.Component.processMouseEvent(Component.java:6626)
+	java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+	java.desktop/java.awt.Component.processEvent(Component.java:6391)
+	java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+	java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+	java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
+	java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
+	java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+	org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:136)
+	java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2025-12-02 22:29:27.021 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+INFO: useDataTypeIcon: dataType = Tagged Files
+2025-12-02 22:29:27.023 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+INFO: useDataTypeIcon: dataType = Tagged Images
+2025-12-02 22:29:27.024 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+INFO: useDataTypeIcon: dataType = Tagged Results
+2025-12-02 22:29:27.025 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+INFO: useDataTypeIcon: dataType = Web Downloads
+2025-12-02 22:30:30.451 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+INFO: useDataTypeIcon: dataType = Tagged Files
+2025-12-02 22:30:30.452 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+INFO: useDataTypeIcon: dataType = Tagged Images
+2025-12-02 22:30:30.453 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+INFO: useDataTypeIcon: dataType = Tagged Results
+2025-12-02 22:30:30.453 org.sleuthkit.autopsy.report.modules.html.HTMLReport useDataTypeIcon
+INFO: useDataTypeIcon: dataType = Web Downloads

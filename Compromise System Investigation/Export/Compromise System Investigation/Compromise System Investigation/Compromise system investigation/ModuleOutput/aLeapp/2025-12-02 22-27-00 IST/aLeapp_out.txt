@@ -1,0 +1,22 @@
+Info: 189 plugins loaded.
+Procesing started. Please wait. This may take a few minutes...
+
+--------------------------------------------------------------------------------------
+ALEAPP v3.1.6: Android Logs, Events, and Protobuf Parser
+Objective: Triage Android Full System Extractions.
+By: Alexis Brignoni | @AlexisBrignoni | abrignoni.com
+By: Yogesh Khatri   | @SwiftForensics | swiftforensics.com
+Building files listing...
+File listing complete - 3 files
+Artifact categories to parse: 189
+File/Directory selected: \\?\C:\Users\RAKESH~1\AppData\Local\Temp\Autopsy\compromise_system_investigation_20251202_222447\Temp\aLeapp\fs_1
+
+--------------------------------------------------------------------------------------
+
+Processes completed.
+Processing time = 00:00:00
+
+Report generation started.
+Report generation Completed.
+
+Report location: C:\Users\RAKESH S\Downloads\project vac\Compromise System Investigation\Export\Compromise System Investigation\Compromise System Investigation\Compromise system investigation\ModuleOutput\aLeapp\2025-12-02 22-27-00 IST\ALEAPP_Reports_2025-12-02_Tuesday_222701
